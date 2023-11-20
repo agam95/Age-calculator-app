@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="date">
+      <div class="day">
+        DAY
+        <input id="input" class="dayInput" type="text" placeholder="DD">
+        <div class="dayError">Must be a valid day</div>
+      </div>
+      <div class="month">
+        MONTH
+        <input id="input" class="monthInput" type="text" placeholder="MM">
+        <div class="monthError">Must be a valid month</div>
+      </div>
+      <div class="year">
+        YEAR
+        <input id="input" class="yearInput" type="text" placeholder="YYYY">
+        <div class="yearError">Must be in the past</div>
+      </div>
+    </div>
+
+
+
+    <div class="submit">
+      <div class="line"></div>
+      <div class="button">
+        <img src="assets/images/icon-arrow.svg" alt="">
+      </div>
+
+    </div>
+
+    <div class="result">
+      <div class="resultYear">
+        <span class="yearNumber">--</span>years
+      </div>
+      <div class="resultmonth">
+        <span class="monthNumber">--</span>months
+      </div>
+      <div class="resultday">
+        <span class="dayNumber">--</span>days
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
